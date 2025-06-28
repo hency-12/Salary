@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model=pickle.load(open('F:/MachineLearning/placement/placemnt_model.sav','rb'))
+loaded_model=pickle.load(open('placemnt_model.sav','rb'))
 
 def salary_prediction(input_data):
     
